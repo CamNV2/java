@@ -1,0 +1,13 @@
+
+Database Created
+
+Details
+
+Your database has been setup. Use the following values:
+
+Database:	oder387_web
+Host:	localhost
+Username:	oder387_web
+Password:	cpcomputer
+
+Click HERE to go back

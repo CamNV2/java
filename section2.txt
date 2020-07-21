@@ -1,0 +1,13 @@
+-Một lớp lưu trữ java code .Một package là một thư mục có thể lưu trữ một hoặc nhiều lớp java.Packages được sử dụng 
+để quản lý các class.
+-Một class có thể lưu trữ một hoặc nhiều phương thức . Một phương thức là một khối mã thực hiện một nhiệm vụ
+-A main method là một kiểu đặc biệt của method điều đó đã thực thi khi bạn chạy lớp có chứa nó.
+-Một câu lệnh thực hiện một nhiệm vụ và kết thúc bằng dấu chấm phẩy.
+-Comment thường ghi lại những gì đã code.
+-Bạn có thể sử dụng phiên bản code NetBean để nhập và sửa code.Khi bạn nhập code, bạn có thể sử dụng tính năng
+hoàn thành mã để giúp bạn nhập tên của class và oject và chọn từ tập tin và phương thức.
+-Java cung cấp 8 kiểu dữ liệu nguyên thủy. Hai trong số phổ biến nhất là kiểu int và kiểu double.
+-Biến lưu trữ dữ liệu có thể thay đôi khi chạy ứng dụng lên.Một câu lệnh gán có thể gán dữ liệu cho một biến.
+-Một chuỗi có thể có một hawojc nhiều ký tự bao gồm chữ cái , chữ số , và ký tự đặc biệt. Bạn có thể dùng dấu
+cộng đẻ nối một chuỗi với một chuỗi khác hoặc nối với kiểu dữ liệu nguyên thủy.
+-Bạn có thể sử dụng chuỗi kết thúc bao gồm các ký tự đặc biệt trong chuỗi.

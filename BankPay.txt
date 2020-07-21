@@ -1,0 +1,52 @@
+
+package bank.pay;
+
+import java.util.Scanner;
+
+public class BankPay {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String choice = "y";
+        while (choice.equalsIgnoreCase("y")) {
+            System.out.println("Enter the money you want loan: ");
+            double loanMoney = Double.parseDouble(input.nextLine());
+
+            System.out.println("Enter year term : ");
+            int yearTerm = Integer.parseInt(input.nextLine());
+
+            System.out.println("Enter loan interest rate: ");
+            double yearInterest = Double.parseDouble(input.nextLine());
+
+            //convert year to month 
+            int month = yearTerm * 12;
+
+            //convert year interest to month interest
+            double monthInterest = yearInterest / 100;
+
+            //money must pay monthtly 
+            double payAmonth = loanMoney / month;
+            int i = 1;
+            double bankPay = 0;
+            double payTotal = 0;
+            while (i <= month) {
+                double interestValue = loanMoney * monthInterest;
+                loanMoney = loanMoney - payAmonth;
+                bankPay = payAmonth + interestValue;
+                System.out.println("Thang: " + i + "\t" + "Tien goc la: " + payAmonth + "\t" + "Lai phai tra: " + interestValue + "\t" + "Tong tien phai tra3233: " + bankPay);
+
+                payTotal = payTotal + bankPay;
+
+                i += 1;
+            }
+            System.out.println("Tong Phai Tra: " + payTotal);
+            System.out.println("Continue? (Y /N)");
+            choice = input.nextLine();
+            System.out.println("");
+        }
+    }
+
+}

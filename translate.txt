@@ -1,0 +1,19 @@
+-Bạn có thể sử dụng bộ công cụ phát triển Java (JDK) để phát triển ứng dụng java.
+-Phiên bản tiêu chuẩn của Java được gọi là Java SE.
+-Bạn có thể sử dụng Java SE để khởi tạo 'ứng dụng trên máy tính' được chạy trên máy tính của bạn.
+-Một ứng dụng trên máy tính có thể sử dụng giao diện đồ họa người dùng (GUI) hoặc một bảng điều khiển
+để hiển thị đầu ra và đầu vào của người dùng. Các ứng dụng sử dụng bảng điểu khiển (console) để tương tác với
+người dùng được biết như là ứng dụng bảng điều khiển (console).
+-Bạn có thể sử dụng phiên bản doanh nghiệp của java , cái được biết là Java SE để tạo ứng dụng phía máy chủ sử dụng servelet
+và JavaServer Pages (JSPs).
+-Trình biên dịch Java dịch mã nguồn vào một định dạng nền tảng độc lập được biết là Java bytecodes.
+-Một môi trường để chạy java (JRE) bao gồm tất cả phần mềm cần thiết để chạy mã byte.
+-Một JRE bao gồm triển khai máy ảo Java.
+-Một máy ảo java bao gồm một phiên dịch Java để dịch mã byte java vào mã nguồn đó có thể được hiểu như là hệ điều hành cơ bản.
+-Máy ảo Java hiện đại nhất đã thay thế trình biên dịch java với một trình biên dịch đúng lúc (JIT compiler).JIT compiler giống
+như một trình biên dịch trong vài cách , nhưng nó cải thiện hiệu suất đáng kể.
+-Một môi trường phá triển tổng hợp có thể làm việc với java dễ dàng hơn băng cách cung cấp hoàn thành code , phát hiện lỗi, 
+tự động biên dịch , và trình gỡ lỗi.
+-Trong NetBean , Một dự án là một thư mục lưu trữ tất cả các file tạo nên một ứng dụng.
+-Nếu một ứng dụng in ra một văn bản trong console, NetBean hiển thị văn bản trong đầu ra của window.Netbean cũng cho phép bạn nhập
+đầu vào cào đầu ra của window.
